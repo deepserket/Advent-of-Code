@@ -32,7 +32,6 @@ for i, line in enumerate(data):
                 flag = True
         if c == " ":
             if flag:
-                print(temp)
                 total += int(temp)
             temp = ""
             flag = False
