@@ -31,7 +31,6 @@ for (i, line) in enumerate(data)
 	_, line = split(line, ": ")
 	winning, have = split(line, " | ")
 	wins = 0
-	println(i, "   ", repetitions[i])
 	for i in range(start=1, stop=29, step=3)
 		for j in range(start=1, stop=74, step=3)
 			if winning[i:i+1] == have[j: j+1]
